@@ -11,13 +11,13 @@ class SimpleScreen extends StatefulWidget {
 }
 
 class _SimpleScreenState extends State<SimpleScreen> {
-  late Color backgroundColor;
+  Color? backgroundColor;
   final ColorGenerator colorGenerator = ColorGenerator();
 
   @override
   void initState() {
-    backgroundColor = colorGenerator.getRandomColor();
     super.initState();
+    backgroundColor = colorGenerator.getRandomColor();
   }
 
   @override

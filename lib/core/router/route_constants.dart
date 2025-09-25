@@ -1,4 +1,4 @@
 class RouteConstants {
-  static String screenSimple = 'screenSimple';
-  static String screenBlock = 'screenBlock';
+  static const String screenSimple = 'screenSimple';
+  static const String screenBlock = 'screenBlock';
 }

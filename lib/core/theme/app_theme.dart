@@ -1,20 +1,21 @@
 import 'package:flutter/material.dart';
 
-class CustomTheme {
-  CustomTheme._();
+class AppTheme {
 
-  static ThemeData theme = ThemeData(
+  static final ThemeData theme = ThemeData(
     textTheme: TextTheme(
       headlineMedium: const TextStyle().copyWith(
-        fontSize: 30.0, 
+        fontSize: 30, 
         fontWeight: FontWeight.bold, 
         color: Colors.black,
       ),
       bodySmall: const TextStyle().copyWith(
-        fontSize: 12.0, 
+        fontSize: 12, 
         fontWeight: FontWeight.normal, 
         color: Colors.black54,
       ),
     ),
   );
+
+  AppTheme._();
 }
