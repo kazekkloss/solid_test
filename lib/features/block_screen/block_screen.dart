@@ -22,7 +22,7 @@ class BlockScreen extends StatelessWidget {
                   const Spacer(),
                   Text("This screen has color state management based on BLoC", style: Theme.of(context).textTheme.bodySmall),
                   Text("Hello there", style: Theme.of(context).textTheme.headlineMedium),
-                  ElevatedButton(onPressed: () => context.goNamed(RouteConstants.screenSimple), child: const Text("Go to screen with block")),
+                  ElevatedButton(onPressed: () => context.goNamed(RouteConstants.screenSimple), child: const Text("Go to simple screen")),
                   const Spacer(),
                 ],
               ),
